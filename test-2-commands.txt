@@ -1,0 +1,32 @@
+#This is the sample commands file, showing the format of each command.
+#
+login maln 111112 231.43.171.67
+login man 11111 231.43.171.61
+login man 111111 231.43.171.61
+login woman 080400 231.43.171.62
+login woman 196204 231.43.171.62
+login mw 111111 231.43.171.62
+out mw 231.43.171.63
+out mw 231.43.171.62
+balance mw 231.43.171.62
+balance man 231.43.171.63
+balance man 231.43.171.61
+place 00:01:01:01:22:34 134.31.78.43 mw woman 2000 00:01:04:00:22:35 s
+place 00:01:03:00:22:34 134.31.78.43 woman man 1000 00:01:03:00:23:35 s
+balance man 231.43.171.61
+balance woman 231.43.171.62
+place 08:03:01:40:22:34 134.31.78.43 man woman 2000 08:03:01:50:22:34 s
+place 08:03:01:40:22:34 134.31.78.43 man man 2000 08:03:01:40:22:34 s
+place 08:03:01:40:22:34 134.31.78.43 aman woman 2000 08:03:01:40:22:35 s
+place 08:03:01:40:22:34 134.31.78.43 man bwoman 2000 08:03:02:40:22:34 s
+place 08:03:01:40:22:34 231.43.171.61 man woman 2000 08:03:01:40:22:34 o
+place 08:03:01:40:22:35 231.43.171.61 man woman 100000 08:03:01:40:22:38 s
+place 09:03:01:40:22:37 231.43.171.61 man woman 1000 09:03:01:60:22:40 o
+place 09:03:01:40:22:39 231.43.171.61 man woman 2000 09:03:01:60:22:39 o
+balance ma 231.43.171.61
+balance woman 231.43.171.61
+balance woman 231.43.171.62
+out man 231.43.171.61
+out woman 231.43.171.61
+out woman 231.43.171.62
+$$$

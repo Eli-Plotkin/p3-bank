@@ -1,0 +1,13 @@
+login m 111111 100.100.0.1
+login woman 543211 132.134.3.1
+login woman 543210 132.134.3.1
+login man 111111 132.134.3.1
+out man 192.192.9.8
+out man 132.134.3.1
+balance man 132.134.3.1
+balance woman 132.134.3.1
+balance woman 132.134.3.2
+place 10:10:10:10:10:10 132.134.3.1 woman man 1 10:10:10:10:10:11 o
+out woman 132.134.3.1
+out a 132.134.3.1
+$$$
